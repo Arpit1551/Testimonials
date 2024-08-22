@@ -1,0 +1,80 @@
+.sampleMain{
+    width: 70%;
+    height: fit-content;
+    display: grid;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+    /* grid-template-rows: 5vh 5vh 5vh 5vh 5vh 5vh 5vh 5vh 5vh 5vh 5vh 5vh 5vh 5vh 5vh 5vh 5vh 5vh 5vh 5vh 5vh 5vh 5vh 5vh 5vh 5vh 5vh 5vh 5vh; */
+    grid-template-rows: repeat(29 , 5vh);
+}
+
+.sampleOne{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-row: 1 / 12;
+    grid-column: 1 / 2;
+}
+
+.sampleTwo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-row: 1 / 12;
+    grid-column: 2 / 3;
+}
+
+.sampleThree{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-row: 1 / 12;
+    grid-column: 3 / 4;
+}
+
+.sampleFour{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-row: 12 / 19;
+    grid-column: 1 / 2;
+}
+
+.sampleFive{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-row: 12 / 22;
+    grid-column: 2 / 3;
+}
+
+.sampleSix{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-row: 12 / 22;
+    grid-column: 3 / 4;
+}
+
+.sampleSeven{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-row: 19 / 29;
+    grid-column: 1 / 2;
+}
+
+.sampleEight{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    grid-row: 22 / 30;
+    grid-column: 2 / 3;
+}
+
+.sampleNine{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    grid-row: 22 / 30;
+    grid-column: 3 / 4;
+}

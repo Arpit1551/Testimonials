@@ -1,0 +1,39 @@
+.Customers{
+    width: fit-content;
+    height: fit-content;
+    padding: 1rem;
+    border-radius: 20px;
+    transition: all ease .5s;
+}
+
+.Customers li{
+    width: 18vw;
+    height: 9vh;
+    margin-block: 2vh;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 1vw;
+}
+
+.Customers li i{
+    color: rgb(85, 89, 95);
+    /* border: 2px solid red; */
+    font-size: 23px;
+    padding: .2rem .5rem;
+    background: white;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+
+.Customers li:hover{
+    background-color: black;
+    .logo{
+        color: rgb(93, 9.3, 225);
+    }
+}
+
+.navElements li{
+    cursor: pointer;
+}

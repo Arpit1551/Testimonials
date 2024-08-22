@@ -1,0 +1,9 @@
+.list li{
+    color: rgb(155,169,180);
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.list li:hover{
+    color: white;
+}
